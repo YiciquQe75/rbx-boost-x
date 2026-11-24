@@ -90,3 +90,8 @@ cmake --build build --config Release
 
 ---
 <sub>Indexed tags: rbx-boost-x, fps, lags, boost, profiles, gaming-tools, performance, roblox, optimizer, cli, developer-tools, open-source, windows, automation, productivity, cpp, portable, prebuilt, tools</sub>
+
+## Keywords
+
+roblox optimizer fps lags boost profiles gaming-tools performance roblox-performance-tool rbx-boost-x roblox-optimizer windows portable prebuilt x64 free download
+related: roblox, optimizer, fps, lags, boost, profiles, gaming-tools, performance
